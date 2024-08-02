@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-image: url(hero1.jpg);
+  background-repeat: no-repeat;
+  height: 110vh;
+  width: 100vw;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.container {
+  height: 124.5vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.62);
+  position: relative;
+  z-index: 0;
+}
+header {
+  position: absolute;
+  z-index: 1;
+  height: 17vh;
+  width: 100vw;
+  background-color: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.netflix {
+  width: 25vw;
+  height: 15vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign {
+  width: 100%;
+  height: 15vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.netbox {
+  width: 70%;
+  height: 72.8%;
+
+  background-image: url(netflix.png);
+  background-size: cover;
+  color: red;
+  margin-right: 2.5vw;
+}
+.english {
+  height: 6vh;
+  width: 11vw;
+  border: 1px solid rgba(250, 249, 250, 0.554);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  margin-right: 2vw;
+  border-radius: 0.6vh;
+}
+#language {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  margin-left: 0.8vw;
+}
+.boton {
+  color: aliceblue;
+  height: 6vh;
+  width: 6vw;
+  border: none;
+  border-radius: 0.6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3vw;
+  background-color: #d3380d;
+  transform: background-color 1s linear 4s;
+}
+#btn {
+  font-size: 1.1rem;
+  border: none;
+  background-color: transparent;
+}
+.boton:hover {
+  background-color: #f2572c;
+}
+.main {
+  height: 300px;
+  width: 1000px;
+  margin-top: 250px;
+  margin-left: 180px;
+  position: absolute;
+  z-index: 2;
+  color: white;
+  padding: 10px;
+}
+#pro {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 3rem;
+}
+#ok {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+h3 {
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.information {
+  height: 66px;
+  width: 58%;
+  border-color: aliceblue;
+  margin-left: 147px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  height: 58px;
+  width: 350px;
+  background-color: rgba(26, 26, 26, 0.775);
+  color: white;
+  border: 0.7px solid rgba(255, 255, 255, 0.656);
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding-left: 13px;
+}
+.start {
+  height: 58px;
+  width: 200px;
+  border: 1px solid rgb(236, 9, 9);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 550;
+  border-radius: 4px;
+  background-color: #cc0003;
+  padding-top: 12px;
+  transition: background-color 0.3s linear 0s;
+}
+.start:hover {
+  background-color: #820204;
+}
+.body-parts {
+  background-color: rgb(106, 105, 105);
+}
+.box1 {
+  font-weight: 500;
+  color: white;
+  height: 450px;
+  background-color: black;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.first {
+  margin-top: 100px;
+  height: 250px;
+  width: 450px;
+  /* border: 2px solid yellow; */
+}
+.second .second1 {
+  height: 345px;
+  width: 460px;
+  /* border: 2px solid yellow; */
+  background-image: url(tv.png);
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+.box2 {
+  font-weight: 500;
+  color: white;
+  height: 450px;
+  background-color: black;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 6.6px;
+  position: relative;
+  z-index: 1;
+}
+.third {
+  margin-top: -64px;
+  height: 345px;
+  width: 460px;
+  /* border: 2px solid yellow; */
+  background-image: url(mobile.jpg);
+  background-size: cover;
+}
+.fourth {
+  margin-top: 80px;
+  height: 350px;
+  width: 450px;
+  /* border: 2px solid yellow; */
+}
+.box3 {
+  font-weight: 500;
+  color: white;
+  height: 450px;
+  background-color: black;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 6.6px;
+}
+.fifth {
+  margin-top: 75px;
+  height: 250px;
+  width: 450px;
+  /* border: 2px solid yellow; */
+}
+.sixth .sixth1 {
+  height: 345px;
+  width: 460px;
+  /* border: 2px solid yellow; */
+  background-image: url(watch\ everywhere.png);
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+.box4 {
+  font-weight: 500;
+  color: white;
+  height: 450px;
+  background-color: black;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 6.6px;
+}
+.seventh {
+  height: 345px;
+  width: 460px;
+  /* border: 2px solid yellow; */
+  background-image: url(kids.png);
+  background-size: cover;
+}
+.eigth {
+  margin-top: 105px;
+  height: 350px;
+  width: 450px;
+  /* border: 2px solid yellow; */
+}
+#paramargin {
+  margin-top: 27px;
+}
+#video1 {
+  margin-top: -271.5px;
+  margin-left: 61.5px;
+  position: absolute;
+  z-index: 0;
+}
+#video2 {
+  position: absolute;
+  z-index: 0;
+}
+.second2 {
+  position: absolute;
+  z-index: 0;
+}
+.sixth2 {
+  margin-top: -313px;
+  margin-left: 84px;
+  position: absolute;
+  z-index: 0;
+}
+.stranger-things {
+  height: 100px;
+  width: 300px;
+  background-color: black;
+  border: 2px groove rgba(202, 201, 201, 0.657);
+  border-radius: 10px;
+  position: absolute;
+  z-index: 3;
+  margin-left: -600px;
+  margin-top: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.picture {
+  height: 76px;
+  width: 56px;
+  /* border: 1px solid red; */
+  background-image: url(boxshot.png);
+  background-size: cover;
+  margin-left: -6.5px;
+}
+.stranger {
+  margin-left: -28px;
+  padding: 3px;
+  height: 50px;
+  width: 135px;
+  /* border:1px solid red ; */
+}
+.downloading {
+  padding-top: 3px;
+  height: 30px;
+  width: 25px;
+  /* border:1px solid red ; */
+  font-size: 1.4rem;
+}
+.circle {
+  margin-top: -29px;
+  margin-left: -6px;
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  border: 3.5px dashed rgb(1, 1, 223);
+  animation: spin 3s linear 2s infinite alternate;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(360deg);
+  }
+  100% {
+    background-color: rgba(26, 26, 250, 0.55);
+  }
+}
+.rectangle {
+  height: 7px;
+  background-color: rgb(106, 105, 105);
+}
+
+.footer-up {
+  margin-top: 0px;
+  height: 152vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.upper {
+  height: 20vh;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-size: 3.3rem;
+  font-weight: 800;
+  padding-top: 20px;
+  /* border: 1px solid red; */
+}
+.foot-out {
+  height: 14vh;
+  width: 70%;
+  background-color: rgba(51, 50, 50, 0.677);
+  /* border: 1px solid #ff0000; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s ease-in 0s;
+}
+.plus {
+  margin-right: 30px;
+  font-size: 3rem;
+}
+.foot-up-box {
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
+.lowside-foot {
+  height: 28vh;
+  width: 70%;
+  background-color: transparent;
+}
+.lower {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh;
+  width: 100%;
+  background-color: rgb(0 0 0);
+  /* border: 1px solid red; */
+}
+.foot-out:hover {
+  background-color: rgba(144, 143, 143, 0.791);
+}
+.upside {
+  width: 100%;
+  /* border: 1px solid red; */
+  height: 8vh;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.3rem;
+  margin-left: -46px;
+}
+.info-foot {
+  padding-bottom: 60px;
+}
+.egg {
+  margin-left: 15px;
+}
+li {
+  list-style: none;
+  text-decoration: underline;
+  margin: 15px;
+}
+.down-reck {
+  height: 7px;
+  background-color: rgb(106, 105, 105);
+}
+.footer-down {
+  color: white;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-down {
+  height: 300px;
+  width: 350px;
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#final {
+  text-decoration: none;
+}
